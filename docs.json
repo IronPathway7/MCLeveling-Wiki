@@ -1,22 +1,26 @@
 {
   "$schema": "https://docs.page/schema.json",
-  "name": "MCLeveling-Wiki",
-  "description": "MCLeveling-Wiki documentation",
+  "name": "MC-Leveling Wiki",
+  "description": "The complete guide to the MC-Leveling Minecraft Server",
+  "theme": "#39ff14",
   "sidebar": [
+    ["index", "How to Join"],
+    ["rules", "Server Rules"],
+    ["commands", "Essential Commands"],
+    ["claims", "Land Claiming Guide"],
     {
-      "group": "Getting Started",
+      "title": "Solo Leveling Features",
       "pages": [
-        {
-          "title": "Getting to know docs.page",
-          "href": "/",
-          "icon": "rocket"
-        },
-        {
-          "title": "Next Steps",
-          "href": "/next-steps",
-          "icon": "arrow-right"
-        }
+        ["classes", "Classes & Ranks"],
+        ["dungeons", "Dungeons"],
+        ["quests", "Quests & Locations"],
+        ["guilds", "Guilds"],
+        ["jobs", "Jobs System"]
       ]
-    }
-  ]
+    },
+    ["ranks", "Store Ranks & Gems"]
+  ],
+  "socials": {
+    "github": "YOUR_USERNAME/YOUR_REPO_NAME"
+  }
 }
