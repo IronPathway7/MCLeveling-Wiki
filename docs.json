@@ -1,0 +1,23 @@
+{
+  "$schema": "https://docs.page/schema.json",
+  "name": "MC-Leveling Wiki",
+  "description": "Official guide for the MC-Leveling Minecraft Server",
+  "theme": "#39ff14",
+  "sidebar": [
+    ["index", "How to Join"],
+    ["rules", "Server Rules"],
+    ["commands", "Essential Commands"],
+    ["claims", "Land Claiming"],
+    {
+      "title": "Solo Leveling Aspect",
+      "pages": [
+        ["classes", "Classes & Ranks"],
+        ["dungeons", "Dungeons"],
+        ["quests", "Quests"],
+        ["guilds", "Guilds"],
+        ["jobs", "Jobs"]
+      ]
+    },
+    ["ranks", "Store Ranks & Gems"]
+  ]
+}
