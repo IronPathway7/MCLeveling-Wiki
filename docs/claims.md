@@ -21,3 +21,5 @@
 ### Other Actions
 *   **Teleport:** `/claim` -> Right-click Claims Icon -> Wait 5 seconds.
 *   **Delete:** `/claim` -> Left-click Claims Icon -> Delete Claim -> Confirm.
+
+Test
