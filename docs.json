@@ -14,7 +14,7 @@
         ["classes", "Classes & Ranks"],
         ["dungeons", "Dungeons"],
         ["quests", "Quests & Locations"],
-        ["guild", "Guilds"]
+        ["guild", "Guilds"],
         ["jobs", "Jobs System"]
       ]
     },
