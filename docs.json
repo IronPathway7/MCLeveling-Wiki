@@ -2,25 +2,37 @@
   "$schema": "https://docs.page/schema.json",
   "name": "MC-Leveling Wiki",
   "description": "The complete guide to the MC-Leveling Minecraft Server",
-  "theme": "#39ff14",
+  "theme": {
+    "primary": "#39ff14"
+  },
+  "social": {
+    "github": "IronPathway7/MCLeveling-Wiki",
+    "discord": "https://discord.gg/mcleveling",
+    "website": "https://mcleveling.com"
+  },
   "sidebar": [
-    ["index", "How to Join"],
-    ["rules", "Server Rules"],
-    ["commands", "Essential Commands"],
-    ["claims", "Land Claiming Guide"],
     {
-      "title": "Solo Leveling Features",
       "pages": [
-        ["classes", "Classes & Ranks"],
-        ["dungeons", "Dungeons"],
-        ["quests", "Quests & Locations"],
-        ["guild", "Guilds"],
-        ["jobs", "Jobs System"]
+        { "title": "How to Join",         "href": "/index" },
+        { "title": "Server Rules",         "href": "/rules" },
+        { "title": "Essential Commands",   "href": "/commands" },
+        { "title": "Land Claiming Guide",  "href": "/claims" }
       ]
     },
-    ["ranks", "Store Ranks & Gems"]
-  ],
-  "socials": {
-    "github": "IronPathway7/MCLeveling-Wiki"
-  }
+    {
+      "group": "Solo Leveling Features",
+      "pages": [
+        { "title": "Classes & Ranks",    "href": "/classes" },
+        { "title": "Dungeons",           "href": "/dungeons" },
+        { "title": "Quests & Locations", "href": "/quests" },
+        { "title": "Guilds",             "href": "/guild" },
+        { "title": "Jobs System",        "href": "/jobs" }
+      ]
+    },
+    {
+      "pages": [
+        { "title": "Store Ranks & Gems", "href": "/ranks" }
+      ]
+    }
+  ]
 }
