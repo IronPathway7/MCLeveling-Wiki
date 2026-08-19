@@ -66,5 +66,3 @@ When using the MCLeveling Bot or `mcleveling.com`, you agree **NOT** to:
 ### 9. Contact Information
 If you have any questions regarding these Terms of Service or need support with bot configurations, you can contact us at:
 * **Website:** https://mcleveling.com  
-* **Support Discord:** `[Insert Discord Invite Link]`  
-* **Support Email:** `support@mcleveling.com`
